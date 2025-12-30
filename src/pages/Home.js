@@ -10,7 +10,7 @@ const Home = () => {
       name: 'Sarah Johnson',
       rating: 5,
       text: 'Ananta perfumes are absolutely divine! The scents are sophisticated and long-lasting.',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b912bd6d?w=100&h=100&fit=crop',
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop',
     },
     {
       id: 2,
@@ -40,7 +40,7 @@ const Home = () => {
             <span className="block text-gradient mt-2">The infinite signature</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-            Crafting fragrances that define identity,confidence,and timeless luxury motto
+            True luxury is meant to be experienced, not restricted. Discover premium fragrances starting at just ₹349.
           </p>
           <button className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 flex items-center space-x-2 mx-auto">
             <span>Explore Collection</span>
@@ -73,7 +73,7 @@ const Home = () => {
                 <div className="p-6">
                   <p className="text-sm text-yellow-600 font-medium mb-2">{product.category}</p>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">{product.name}</h3>
-                  <p className="text-2xl font-bold text-gray-900">${product.price}</p>
+                  <p className="text-2xl font-bold text-gray-900">₹{product.price}</p>
                 </div>
               </div>
             ))}
@@ -86,21 +86,28 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h2 className="text-4xl font-bold text-gray-900 serif-font">The Ananta Legacy</h2>
+              <h2 className="text-4xl font-bold text-gray-900 serif-font">The Ananta Philosophy</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Founded in 1985, Ananta has been crafting exceptional perfumes for over three decades. Our name, derived from the Sanskrit word for 'infinite', represents our commitment to creating timeless fragrances that transcend trends and capture the essence of elegance.
+                Ananta is a contemporary Indian fragrance house founded on a singular belief: true luxury is meant to be experienced, not restricted. Inspired by timeless sophistication of global luxury icons, we bridge the gap between high-end perfumery and everyday indulgence.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Each bottle is a masterpiece, carefully formulated by our master perfumers using only the finest ingredients from around the world. From the fields of Grasse to the mountains of Kashmir, we source the most precious essences to create scents that tell your unique story.
+                Our fragrances deliver a premium, long-lasting, and confident scent experience—starting at just ₹349, with our highest range capped at ₹2000, making luxury attainable for today's generation. We are proud to introduce India's first perfume vending machine, transforming how consumers discover and experience fragrance.
               </p>
-              <button className="bg-gray-900 text-white px-6 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors duration-200">
-                Learn More About Our Story
-              </button>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="bg-white p-4 rounded-lg shadow-sm">
+                  <div className="text-2xl font-bold text-yellow-600">₹349</div>
+                  <div className="text-sm text-gray-600">Starting Price</div>
+                </div>
+                <div className="bg-white p-4 rounded-lg shadow-sm">
+                  <div className="text-2xl font-bold text-yellow-600">₹2000</div>
+                  <div className="text-sm text-gray-600">Premium Range</div>
+                </div>
+              </div>
             </div>
             <div className="relative">
               <img
                 src="images/logo/ananta-logo.jpeg"
-                alt="Perfume making process"
+                alt="Ananta perfume collection"
                 className="rounded-lg shadow-2xl"
               />
             </div>

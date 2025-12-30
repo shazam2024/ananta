@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, ShoppingCart, User } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,15 +54,6 @@ const Navbar = () => {
             ))}
           </div>
 
-          <div className="hidden md:flex items-center space-x-4">
-            <button className="p-2 text-gray-700 hover:text-yellow-600 transition-colors">
-              <ShoppingCart size={20} />
-            </button>
-            <button className="p-2 text-gray-700 hover:text-yellow-600 transition-colors">
-              <User size={20} />
-            </button>
-          </div>
-
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -86,14 +77,6 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <div className="flex items-center space-x-4 px-3 py-2">
-                <button className="p-2 text-gray-700 hover:text-yellow-600 transition-colors">
-                  <ShoppingCart size={20} />
-                </button>
-                <button className="p-2 text-gray-700 hover:text-yellow-600 transition-colors">
-                  <User size={20} />
-                </button>
-              </div>
             </div>
           </div>
         )}

@@ -5,72 +5,42 @@ const About = () => {
   const values = [
     {
       icon: Heart,
-      title: 'Crafted with Passion',
-      description: 'Every perfume is meticulously crafted by our master perfumers with decades of experience.',
+      title: 'Accessible Luxury',
+      description: 'Making premium fragrances attainable for today\'s generation with pricing from ₹349 to ₹2000.',
     },
     {
       icon: Award,
-      title: 'Premium Quality',
-      description: 'We source only the finest ingredients from around the world to ensure exceptional quality.',
+      title: 'Innovation First',
+      description: 'Pioneering India\'s first perfume vending machines to transform fragrance discovery.',
     },
     {
       icon: Globe,
-      title: 'Sustainable Luxury',
-      description: 'Committed to environmentally responsible practices without compromising on luxury.',
+      title: 'Modern Sophistication',
+      description: 'Inspired by global luxury icons while maintaining contemporary Indian appeal.',
     },
     {
       icon: Users,
-      title: 'Customer First',
-      description: 'Your satisfaction is our priority, with exceptional service and personalized experiences.',
+      title: 'Fragrance Experiences',
+      description: 'Creating spontaneous, accessible, and enduring scent experiences for modern lifestyles.',
     },
   ];
 
-  const team = [
-    {
-      name: 'Isabella Romano',
-      role: 'Master Perfumer',
-      image: 'https://images.unsplash.com/photo-1494790108755-2616b912bd6d?w=200&h=200&fit=crop',
-      bio: 'With over 25 years of experience, Isabella creates our signature fragrances.',
-    },
-    {
-      name: 'James Chen',
-      role: 'Creative Director',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop',
-      bio: 'James leads our creative vision and brand storytelling.',
-    },
-    {
-      name: 'Sophie Laurent',
-      role: 'Head of Sourcing',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop',
-      bio: 'Sophie travels the world to find the most precious ingredients.',
-    },
-  ];
 
-  const timeline = [
+  const innovations = [
     {
-      year: '1985',
-      title: 'The Beginning',
-      description: 'Ananta was founded in Paris with a vision to create timeless fragrances.',
-    },
-    {
-      year: '1995',
-      title: 'First Boutique',
-      description: 'Opened our flagship store on Champs-Élysées, Paris.',
-    },
-    {
-      year: '2005',
-      title: 'Global Expansion',
-      description: 'Expanded to New York, London, and Tokyo markets.',
-    },
-    {
-      year: '2015',
-      title: 'Sustainability Commitment',
-      description: 'Launched our eco-friendly packaging and sustainable sourcing initiatives.',
+      year: '2024',
+      title: 'India\'s First Perfume Vending Machine',
+      description: 'Launched innovative vending machines in malls, cafés, and public spaces for instant fragrance access.',
     },
     {
       year: '2024',
-      title: 'Digital Innovation',
-      description: 'Launched our online platform to reach fragrance lovers worldwide.',
+      title: 'Accessible Luxury Pricing',
+      description: 'Introduced premium fragrances starting at ₹349, making luxury attainable for today\'s generation.',
+    },
+    {
+      year: '2024',
+      title: 'Contemporary Indian Fragrance House',
+      description: 'Founded with the vision to democratize luxury through innovative perfumery and disruptive distribution.',
     },
   ];
 
@@ -84,7 +54,7 @@ const About = () => {
         <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold text-white mb-4 serif-font">Our Story</h1>
           <p className="text-xl text-gray-200 max-w-2xl mx-auto">
-            Crafting exceptional fragrances that capture the essence of elegance and sophistication since 1985
+            A contemporary Indian fragrance house democratizing luxury through innovative perfumery and accessible pricing
           </p>
         </div>
       </section>
@@ -94,32 +64,32 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
-              <h2 className="text-4xl font-bold text-gray-900 serif-font">The Ananta Journey</h2>
+              <h2 className="text-4xl font-bold text-gray-900 serif-font">The Ananta Vision</h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Born from a passion for perfumery and a vision to create timeless scents, Ananta began its journey in the heart of Paris. Our founder, a third-generation perfumer, dreamed of creating fragrances that would become cherished memories for generations to come.
+                Ananta is a contemporary Indian fragrance house founded on a singular belief: true luxury is meant to be experienced, not restricted. Inspired by the timeless sophistication of global luxury icons such as Gucci and Louis Vuitton, along with the accessibility and modern appeal of brands like Bella Vita, Ananta bridges the gap between high-end perfumery and everyday indulgence.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Today, Ananta stands as a symbol of luxury and sophistication, with our fragrances gracing the vanities of discerning customers worldwide. Each bottle represents our unwavering commitment to quality, creativity, and the art of perfumery.
+                Innovation lies at the core of Ananta. We are proud to introduce India's first perfume vending machine, transforming how consumers discover and experience fragrance. Strategically placed in high-footfall locations such as malls, cafés, and public spaces, Ananta vending machines make luxury instantly accessible.
               </p>
               <div className="grid grid-cols-3 gap-4 text-center">
                 <div>
-                  <div className="text-3xl font-bold text-yellow-600">39+</div>
-                  <div className="text-sm text-gray-600">Years of Excellence</div>
+                  <div className="text-3xl font-bold text-yellow-600">₹349</div>
+                  <div className="text-sm text-gray-600">Starting Price</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-yellow-600">150+</div>
-                  <div className="text-sm text-gray-600">Unique Fragrances</div>
+                  <div className="text-3xl font-bold text-yellow-600">₹2000</div>
+                  <div className="text-sm text-gray-600">Premium Range</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-yellow-600">50+</div>
-                  <div className="text-sm text-gray-600">Countries</div>
+                  <div className="text-3xl font-bold text-yellow-600">First</div>
+                  <div className="text-sm text-gray-600">Perfume Vending Machine</div>
                 </div>
               </div>
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1596462502278-27bfdc4033ba?w=600&h=400&fit=crop"
-                alt="Perfume laboratory"
+                src="images/logo/ananta-logo.jpeg"
+                alt="Ananta Perfumes laboratory"
                 className="rounded-lg shadow-2xl"
               />
             </div>
@@ -131,14 +101,14 @@ const About = () => {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4 serif-font">Our Milestones</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4 serif-font">Our Innovations</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Journey through our history of innovation and excellence
+              Revolutionizing the fragrance landscape with disruptive distribution and accessible luxury
             </p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {timeline.map((item, index) => (
+            {innovations.map((item, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-sm hover-lift">
                 <div className="flex items-center mb-4">
                   <div className="w-12 h-12 bg-gradient-to-r from-yellow-600 to-yellow-500 rounded-full flex items-center justify-center text-white font-bold">
@@ -180,13 +150,13 @@ const About = () => {
         </div>
       </section>
 
-      {/* Manufacturing Process */}
+      {/* Innovation Focus */}
       <section className="py-20 bg-gradient-to-br from-yellow-50 to-cream-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4 serif-font">The Art of Perfumery</h2>
+            <h2 className="text-4xl font-bold text-gray-900 mb-4 serif-font">The Art of Accessible Luxury</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Discover how we create our exceptional fragrances
+              How we're redefining the fragrance landscape through innovation and accessibility
             </p>
           </div>
           
@@ -195,36 +165,36 @@ const About = () => {
               <div className="flex items-start space-x-4">
                 <div className="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold text-sm">1</div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Sourcing Premium Ingredients</h3>
-                  <p className="text-gray-700">We travel the world to find the most precious essential oils and raw materials.</p>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Meticulous Craftsmanship</h3>
+                  <p className="text-gray-700">Each Ananta fragrance is meticulously crafted using carefully selected notes that evoke elegance, strength, freshness, and individuality.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <div className="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold text-sm">2</div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Masterful Blending</h3>
-                  <p className="text-gray-700">Our perfumers carefully balance notes to create harmonious compositions.</p>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Disruptive Distribution</h3>
+                  <p className="text-gray-700">Our innovative vending machines make luxury instantly accessible in high-footfall locations like malls, cafés, and public spaces.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <div className="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold text-sm">3</div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Aging & Maturation</h3>
-                  <p className="text-gray-700">Each fragrance ages for months to develop its full character and depth.</p>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Modern Lifestyle Design</h3>
+                  <p className="text-gray-700">Designed for modern lifestyles, our scent profiles are bold yet refined, versatile yet unmistakably memorable.</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
                 <div className="w-8 h-8 bg-yellow-500 rounded-full flex items-center justify-center text-white font-bold text-sm">4</div>
                 <div>
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Quality Assurance</h3>
-                  <p className="text-gray-700">Rigorous testing ensures every bottle meets our exacting standards.</p>
+                  <h3 className="text-xl font-semibold text-gray-900 mb-2">Democratizing Luxury</h3>
+                  <p className="text-gray-700">By combining premium-quality perfumery with accessible pricing, we're redefining luxury for a new generation.</p>
                 </div>
               </div>
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1598440092783-0c1c40f0b4d2?w=600&h=400&fit=crop"
-                alt="Perfume ingredients"
+                src="images/products/product-12.jpeg"
+                alt="Ananta perfume creation process"
                 className="rounded-lg shadow-2xl"
               />
             </div>
@@ -232,35 +202,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* Team */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4 serif-font">Meet Our Team</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              The talented individuals behind our exceptional fragrances
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {team.map((member, index) => (
-              <div key={index} className="text-center group">
-                <div className="relative mb-4 mx-auto w-48 h-48">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-full h-full rounded-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-1">{member.name}</h3>
-                <p className="text-yellow-600 font-medium mb-3">{member.role}</p>
-                <p className="text-gray-600">{member.bio}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Contact Information */}
       <section className="py-20 bg-gray-900 text-white">
@@ -276,17 +217,17 @@ const About = () => {
             <div className="text-center">
               <MapPin className="w-12 h-12 text-yellow-500 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Visit Our Boutique</h3>
-              <p className="text-gray-300">123 Luxury Lane<br />Beverly Hills, CA 90210</p>
+              <p className="text-gray-300">123 Khalpara<br />Siliguri, West Bengal</p>
             </div>
             <div className="text-center">
               <Phone className="w-12 h-12 text-yellow-500 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Call Us</h3>
-              <p className="text-gray-300">+1 (555) 123-4567<br />Mon-Fri: 9AM-6PM PST</p>
+              <p className="text-gray-300">+91 98765 43210<br />Mon-Sat: 10AM-8PM IST</p>
             </div>
             <div className="text-center">
               <Mail className="w-12 h-12 text-yellow-500 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Email Us</h3>
-              <p className="text-gray-300">info@ananta.com<br />support@ananta.com</p>
+              <p className="text-gray-300">hello@ananta.in<br />support@ananta.in</p>
             </div>
           </div>
         </div>

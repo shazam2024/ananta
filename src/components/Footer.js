@@ -100,11 +100,11 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-gray-400">
                 <Mail size={18} className="text-yellow-500" />
-                <span className="text-sm">info@ananta.com</span>
+                <span className="text-sm">hello@ananta.in</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-400">
                 <Phone size={18} className="text-yellow-500" />
-                <span className="text-sm">+91 XXXXXXXXXX</span>
+                <span className="text-sm">+91 98765 43210</span>
               </div>
               <div className="flex items-center space-x-3 text-gray-400">
                 <MapPin size={18} className="text-yellow-500" />
@@ -116,7 +116,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2024 Ananta Perfumes. All rights reserved. | Privacy Policy | Terms of Service
+            © 2026 Ananta Perfumes. All rights reserved. | Privacy Policy | Terms of Service
           </p>
         </div>
       </div>

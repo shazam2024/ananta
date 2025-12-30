@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ShoppingCart, Filter, Search } from 'lucide-react';
+import { Filter, Search } from 'lucide-react';
 import { products } from '../data/products';
 
 const Products = () => {
@@ -20,9 +20,6 @@ const Products = () => {
     return matchesCategory && matchesSearch;
   });
 
-  const handleAddToCart = (productId) => {
-    console.log(`Product ${productId} added to cart`);
-  };
 
   return (
     <div className="pt-16 min-h-screen bg-gray-50">
@@ -94,13 +91,7 @@ const Products = () => {
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{product.name}</h3>
                 <p className="text-gray-600 text-sm mb-4 line-clamp-2">{product.description}</p>
                 <div className="flex items-center justify-between">
-                  <span className="text-2xl font-bold text-gray-900">${product.price}</span>
-                  <button
-                    onClick={() => handleAddToCart(product.id)}
-                    className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-white p-3 rounded-full hover:shadow-lg transition-all duration-200 group-hover:scale-110"
-                  >
-                    <ShoppingCart size={20} />
-                  </button>
+                  <span className="text-2xl font-bold text-gray-900">₹{product.price}</span>
                 </div>
               </div>
             </div>
