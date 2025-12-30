@@ -42,7 +42,10 @@ const Home = () => {
           <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
             True luxury is meant to be experienced, not restricted. Discover premium fragrances starting at just ₹349.
           </p>
-          <button className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 flex items-center space-x-2 mx-auto">
+          <button 
+            onClick={() => window.location.href = '/products'}
+            className="bg-gradient-to-r from-yellow-600 to-yellow-500 text-white px-8 py-4 rounded-full font-semibold text-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 flex items-center space-x-2 mx-auto"
+          >
             <span>Explore Collection</span>
             <ArrowRight size={20} />
           </button>
