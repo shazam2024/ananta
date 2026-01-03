@@ -76,7 +76,17 @@ const Home = () => {
                 <div className="p-6">
                   <p className="text-sm text-yellow-600 font-medium mb-2">{product.category}</p>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">{product.name}</h3>
-                  <p className="text-2xl font-bold text-gray-900">₹{product.price}</p>
+                  <div className="flex items-center gap-3">
+                    <div>
+                      <span className="text-xs text-gray-500 block">50ml</span>
+                      <span className="text-lg font-bold text-gray-900">₹{product.price50ml}</span>
+                    </div>
+                    <div className="w-px h-8 bg-gray-300"></div>
+                    <div>
+                      <span className="text-xs text-gray-500 block">100ml</span>
+                      <span className="text-lg font-bold text-gray-900">₹{product.price100ml}</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             ))}
