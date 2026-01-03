@@ -92,17 +92,26 @@ const Products = () => {
                 <p className="text-gray-600 text-sm mb-4 line-clamp-2">{product.description}</p>
                 <div className="flex items-center justify-between">
                   <div>
-                    <div className="flex items-center gap-3">
-                      <div>
-                        <span className="text-xs text-gray-500 block">50ml</span>
-                        <span className="text-lg font-bold text-gray-900">₹{product.price50ml}</span>
+                    {product.price20ml ? (
+                      <div className="flex items-center gap-3">
+                        <div>
+                          <span className="text-xs text-gray-500 block">20ml</span>
+                          <span className="text-lg font-bold text-gray-900">₹{product.price20ml}</span>
+                        </div>
                       </div>
-                      <div className="w-px h-8 bg-gray-300"></div>
-                      <div>
-                        <span className="text-xs text-gray-500 block">100ml</span>
-                        <span className="text-lg font-bold text-gray-900">₹{product.price100ml}</span>
+                    ) : (
+                      <div className="flex items-center gap-3">
+                        <div>
+                          <span className="text-xs text-gray-500 block">50ml</span>
+                          <span className="text-lg font-bold text-gray-900">₹{product.price50ml}</span>
+                        </div>
+                        <div className="w-px h-8 bg-gray-300"></div>
+                        <div>
+                          <span className="text-xs text-gray-500 block">100ml</span>
+                          <span className="text-lg font-bold text-gray-900">₹{product.price100ml}</span>
+                        </div>
                       </div>
-                    </div>
+                    )}
                   </div>
                 </div>
               </div>
