@@ -49,7 +49,7 @@ export const products = [
     name: "Set of 3 - Women",
     description: "Golden Iris • Midnight Heals • Infinity. Lead with grace. Heal with intention. Rise without limits. (20ml each)",
     price20ml: 599,
-    image: "images/products/product-13.jpeg",
+    image: "images/products/product-13_new.jpeg",
     category: 'women',
   },
   {
